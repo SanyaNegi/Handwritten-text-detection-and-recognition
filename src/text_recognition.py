@@ -106,11 +106,12 @@ def main():
     data_path = os.path.join(img_dir,'*g')
     files = glob.glob(data_path)
     os.mkdir('TextFiles')
-    i=1
+    i=0
     for f1 in files:
-        print("---Image"+str(i)+"being processed---")
+        
         image = cv2.imread(f1)
         i+=1
+        print("---Image"+str(i)+"being processed---")
     
         # load the input image and grab the image dimensions
         #image = cv2.imread(args["image"])
