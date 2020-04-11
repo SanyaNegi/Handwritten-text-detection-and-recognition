@@ -3,8 +3,10 @@ Converts a handwritten text document image into .txt file.
 
 ## Requirements
 Tensorflow 
-
 python-opencv
+numpy
+argparse
+glob
 
 
 
@@ -18,4 +20,9 @@ python text_recognition.py --folder <path to the folder containing the images eg
 ```
 4. A new folder or directory will be created inside the `/src` folder names `"/TextFiles"` which will contain .txt files corresponding to the images in the provided folder.
 5. In order to re-run this project for a new set or the same set of images, remove or relocate the `TextFiles` folder from `/src` first.
+
+## Sample Output
+
+Sample output .txt file can be found in `/data` along with the correponding input image for it.
+
 
