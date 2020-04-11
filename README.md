@@ -23,6 +23,6 @@ python text_recognition.py --folder <path to the folder containing the images eg
 
 ## Sample Output
 
-Sample output .txt file can be found in `/data` along with the correponding input image for it.
+Sample output .txt file ( named Sample_Output_file1.txt ) can be found in `/data` along with the correponding input image ( named Sample_Input.jpg ) for it.
 
 
