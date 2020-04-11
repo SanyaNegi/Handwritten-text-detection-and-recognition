@@ -2,11 +2,11 @@
 Converts a handwritten text document image into .txt file.
 
 ## Requirements
-Tensorflow 
-python-opencv
-numpy
-argparse
-glob
+Tensorflow</br> 
+python-opencv</br>
+numpy</br>
+argparse</br>
+glob</br>
 
 
 
